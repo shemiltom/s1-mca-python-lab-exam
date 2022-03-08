@@ -1,0 +1,14 @@
+def compare(s1,s2):
+    s1 = input("enter the first string")
+    s2 = input("enter the second string")
+    n = int(input("enter the charactors to be checked"))
+    se1 = s1[0:n]
+    se2 = s2[0:n]
+    if (se1 == se2):
+        return True
+    else:
+        return False
+
+
+print(compare('s1','s2'))
+
