@@ -1,0 +1,20 @@
+
+b=int(input("enter the breadth 0f  triangle"))
+h=int(input("enter the height of  triangle"))
+a=0
+a=1/2*b*h
+print("the area of triangle is ",a)
+
+l2=int(input("enter the length of rrectangle"))
+h2=int(input("enter the height of rrectangle"))
+a2=0
+a2=l2*h2
+print("the area of rrectangle is ",a2)
+
+
+
+r=int(input("enter the radius of  circle"))
+p=3.14
+a3=0
+a3=p*r*r
+print("the area of circle is ",a3)
